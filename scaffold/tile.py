@@ -5,8 +5,8 @@ class Tile:
 		"""
 		Initialises the terrain tile and attributes
 		"""
-		self.highest_elevation = highest_elevation
-		self.lowest_elevation = lowest_elevation
+		self.max_elev = highest_elevation
+		self.min_elev = lowest_elevation
 	
 	
 	def elevation(self):
